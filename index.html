@@ -3,11 +3,81 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap demo</title>
+    <title>Family Recipes</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
   </head>
+  
   <body>
-    <h1>Hello, world!</h1>
+    <!-- Begin Nav-->
+    <nav class="navbar navbar-expand-lg bg-body-secondary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Family Recipe Memory</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./index.html#main-dishes">Mains</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./index.html#soups">Soups</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./index.html#desserts">Desserts</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./index.html#drinks">Drinks</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>  
+    <!--End Nav-->
+  <div class="container">
+    <img src="/images/trail.JPG" class="img-fluid pt-4 pb-4" alt="...">
+    <div class="bg-body-secondary pt-3 pb-3">
+      <p>Welcome to the family cookbook. Here are a couple of favorite family recipes that have been around for a while.</p>
+    </div>
+    <h2 id="soups">Soups and Stews</h2>
+      <ul class="nobullets">
+          <li><a href="pages/potatoleeksoup.html">Potato Leek Soup</a></li>
+          <li>Cincinnati Chili</li>
+      </ul>
+    <h2 id="main-dishes">Main Dishes</h2>
+      <ul class="nobullets">
+          <li><a href="pages/americanchopsuey.html">American Chop Suey</a></li>
+          <li><a href="pages/bakedchicken.html">Baked Chicken</a></li>
+          <li><a href="pages/puttanesca.html">C'est Colin's Puttanesca</a></li>        
+          <li><a href="pages/creamedmushrooms.html">Creamed Mushrooms</a></li>
+          <li><a href="pages/generalTsos.html">General Tso's</a></li>                   
+          <li><a href="pages/pad_thai.html">Dad's Pad Thai</a></li>
+          <li><a href="pages/porkchopapplesandonions.html">Pork Chops, Apples, & Onions</a></li>
+          <li><a href="pages/salt_fish_dinner.html">Grandma Newcomb's Salt Fish Dinner</a></li>
+          <li><a href="pages/sweetpotatopudding.html">Uncle Peter's Sweet Potato Pudding</a></li>
+
+      </ul>
+    <h2 id="desserts">Desserts</h2>
+        <ul class="nobullets">
+            <li><a href="pages/chocolate_bread_pudding.html">Chocolate Bread Pudding</a></li>
+            <li><a href="pages/grapenut_pudding.html">Shirley's Grape-nut Pudding</a></li>
+            <li>Strawberry Ice Cream</li>
+        </ul>
+    <h2 id="drinks">Drinks</h2>
+        <ul class="nobullets">
+            <li> <a href="pages/kombucha.html">Kombucha</a></li>
+            <li>Shrub (forthcoming)</li>
+        </ul>
+    <h2 id="ideas">Recipes Ideas</h2>
+    <ul class="nobullets">
+        <li><a href="pages/recipeideas.html">Recipe Ideas</a></li>   
+    </ul>
+
+  </div>    
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
+
   </body>
 </html>
