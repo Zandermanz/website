@@ -1,69 +1,104 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <!--Remember to add title to template-->
-        <Title>Puttanesca</Title> 
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="../css/styles.css">
-    </head>
-    <body>
-        <!--------------HEADER-------------------->
-        <nav class="header">
-            <div class="left-links">
-                <ul> 
-                    <li><a href="../index.html">Home</a></li>
-                    <li><a href="../index.html#main-dishes">Mains</a></li>
-                </ul>
-            </div>
-            <div class="logo">
-                <img src="../images/logo.png" alt="Family Cookbook Logo">
-            </div>
-            <div class="right-links">
-                <ul>
-                    <li><a href="../index.html#soups">Soups</a></li>
-                    <li><a href="../index.html#desserts">Desserts</a></li>
-                </ul>
-            </div>
-        </nav>
-        <!--------------Main Content-------------------->        
-        <div class="mainBody">
-            <h1>C'est Colin's Puttanesca</h1>
-            <div class="scenic-pictures">
-                <!--Remember to add image source or comment this Div out when creating new-->
-                <img src="../images/puttanesca.png" alt="Puttanesca with a side bowl of bread">
-            </div>  
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Family Recipes</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+  </head>
+  
+  <body style="background-color:whitesmoke">
+  
+    <!--Start Header-->
+    <div class="container">
+      <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
+        <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+          <img class="bi me-2" width="40" height="40" src="../images/Logo f5f5f5 Background Cropped.svg"></img>
+          <span class="fs-4">Family Recipe Memory</span>
+        </a>
+  
+        <ul class="nav nav-pills">
+          <li class="nav-item"><a href="../index.html" class="nav-link active" aria-current="page">Home</a></li>
+          <li class="nav-item"><a href="../index.html#main-dishes" class="nav-link">Mains</a></li>
+          <li class="nav-item"><a href="../index.html#soups" class="nav-link">Soups</a></li>
+          <li class="nav-item"><a href="../index.html#desserts" class="nav-link">Desserts</a></li>
+          <li class="nav-item"><a href="../index.html#drinks" class="nav-link">Drinks</a></li>
+        </ul>
+      </header>
+    </div>
+    <!--End Header-->
+    
+    <!--Begin Hero Div-->
+    <div class="container col-xxl-8 px-4 py-5 bg-dark-subtle">
+      <div class="row flex-lg-row-reverse  g-5">
+        <div class="col-10 col-sm-8 col-lg-6">
+          <img src="../images/puttanesca.png" class="d-block mx-lg-auto img-fluid" alt="Puttanesca with a side bowl of bread" width="700" height="500" loading="lazy">
+        </div>
+        <div class="col-lg-6">
+          <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">C'est Colin's Puttanesca</h1>
+          <p class="lead">C'est Colin, C'est Colin... They sing it from the rooftops for this hot dish that colin found somewhere in his kitchen cabinets for a hungry horde.</p>
+        </div>
+    </div>
+</div>
+<!--End Hero Div-->
+
+<!--Begin Main Div-->
+<div class="container col-xxl-8 px-4">
+    <div class="row flex-lg-row-reverse align-items-center g-5 ">
+        <div class="pt-3 pb-3">
             <h2>Ingredients</h2>
             <ul>
-                <!--Insert Ingredients <li> Here-->
-                    <li>Pasta- Linguine or Buccatini- 1 Pound</li>
-                    <li>Anchovies- 6 Fillets</li>
-                    <li>Garlic- 4 Cloves- Minced</li>
-                    <li>Tomatoes- San Marazono- Large 28 oz can</li>
-                    <li>Tomato Paste- 1 tspn</li>
-                    <li>Wine- 1 Tbsp</li>
-                    <li>Olives- 1 Cup - quartered, half green and half Moroccan or other oil cured olive</li>
-                    <li>Capers- 3 Tbsp</li>
-                    <li>Olive Oil</li>
-                    <li>Panko Bread Crumbs- 1/2 Cup</li>
-                    <li>Parsley</li>
-                    <li>Salt and Pepper to taste</li>
-                </ul>
-                <h2>Instructions</h2>
-                <ol>
-                    <!--Insert Instructions <li> Here-->
-                        <li>Dice Anchovies.</li>
-                        <li>Add olive oil to hot pan.</li>
-                        <li>Add anchovies and garlic to pan and sauté until fragrant.</li>
-                        <li>Add tomato paste and wine and simmer for a few minutes.</li>
-                        <li>Add tomatoes, simmer for 10 minutes.</li>
-                        <li>Add quartered olives and capers, including a 1/2 teaspoon of caper water and cook for another 10 minutes.</li>
-                        <li>Check for salt.</li>
-                        <li>Cook Pasta.</li>
-                        <li>Toss pasta with sauce and add a glug of olive oil, pepper, and a half a cup of Panko bread crumbs.</li>
-                        <li>Shower with parmesan cheese, drizzle with olive oil, add a sprinkle of parsley, and serve.</li>
-                </ol>
-            </div>
-    </body>
-</html>
+                <li>Pasta- Linguine or Buccatini- 1 Pound</li>
+                <li>Anchovies- 6 Fillets</li>
+                <li>Garlic- 4 Cloves- Minced</li>
+                <li>Tomatoes- San Marazono- Large 28 oz can</li>
+                <li>Tomato Paste- 1 tspn</li>
+                <li>Wine- 1 Tbsp</li>
+                <li>Olives- 1 Cup - quartered, half green and half Moroccan or other oil cured olive</li>
+                <li>Capers- 3 Tbsp</li>
+                <li>Olive Oil</li>
+                <li>Panko Bread Crumbs- 1/2 Cup</li>
+                <li>Parsley</li>
+                <li>Salt and Pepper to taste</li>
+            </ul>
+          <h2>Instructions</h2>
+          <ol>
+            <li>Dice Anchovies.</li>
+            <li>Add olive oil to hot pan.</li>
+            <li>Add anchovies and garlic to pan and sauté until fragrant.</li>
+            <li>Add tomato paste and wine and simmer for a few minutes.</li>
+            <li>Add tomatoes, simmer for 10 minutes.</li>
+            <li>Add quartered olives and capers, including a 1/2 teaspoon of caper water and cook for another 10 minutes.</li>
+            <li>Check for salt.</li>
+            <li>Cook Pasta.</li>
+            <li>Toss pasta with sauce and add a glug of olive oil, pepper, and a half a cup of Panko bread crumbs.</li>
+            <li>Shower with parmesan cheese, drizzle with olive oil, add a sprinkle of parsley, and serve.</li>
+          </ol>
+        </div>
+      </div>
+      
+      <!--Bottom Image-->
+      <img src="../images/foglake.JPG" class="img-fluid pt-4 pb-4" alt="View of a Mountain lake with fog up high">
+      
+      <!--Begin Footer-->
+        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top py-1">
+          <ul class="nav col-md-8 justify-content-end">
+            <li class="nav-item">
+              <a href="../index.html" class="nav-link px-2 text-body-secondary">
+                <img class="bi me-2" width="40" height="40" src="../images/Logo f5f5f5 Background Cropped.svg" alt="Family Recipe Memory Logo">
+              </a>
+            </li>
+            <li class="nav-item"><a href="/index.html" class="nav-link px-2 text-body-secondary">Home</a></li>
+            <li class="nav-item"><a href="/index.html#soups" class="nav-link px-2 text-body-secondary">Soups</a></li>
+            <li class="nav-item"><a href="/index.html#main-dishes" class="nav-link px-2 text-body-secondary">Mains</a></li>
+            <li class="nav-item"><a href="/index.html#desserts" class="nav-link px-2 text-body-secondary">Desserts</a></li>
+            <li class="nav-item"><a href="/index.html#drinks" class="nav-link px-2 text-body-secondary">Drinks</a></li>
+          </ul>
+        </footer>
+      <!--End Footer-->
+    
+    </div>
+    <!--End Main Div-->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
+  </body>
