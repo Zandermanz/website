@@ -48,7 +48,7 @@ const recipes = [
       ],
       source: {
         name: '',
-        url: '../pages/americanchopsuey.html'
+        url: './pages/americanchopsuey.html'
       }
     },
 
@@ -76,7 +76,7 @@ const recipes = [
         ],
         source: {
           name: 'Site Name',
-          url: './pages/bakedchicken.html'
+          url: '/pages/bakedchicken.html'
         }
     }, 
     {   id: 2,
